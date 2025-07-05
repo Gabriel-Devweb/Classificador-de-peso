@@ -8,7 +8,7 @@ O usuário informa seu nome, idade, peso, altura e sexo — o sistema calcula o 
 
 ## 📸 Preview
 
-> Exemplo de saída: **Gabriel, 15 anos, sexo masculino, pesa 65kg, mede 1.75m e está com peso ideal.**
+> Exemplo de saída: **Gabriel, 15 anos, sexo masculino, pesa 65kg, mede 1.75m  e está com peso ideal.**
 
 ---
 
