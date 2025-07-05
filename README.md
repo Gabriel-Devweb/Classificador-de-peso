@@ -1,4 +1,4 @@
-[# 🧮 Classificador de Peso
+# 🧮 Classificador de Peso
 
 Projeto simples feito com **HTML**, **CSS** e **JavaScript puro**, criado para treinar lógica de programação, manipulação de DOM e validação de formulário.
 
