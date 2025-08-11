@@ -1,63 +1,48 @@
-# 🧮 Classificador de Peso
+# 🧮 Classificador de IMC
 
-Projeto simples feito com **HTML**, **CSS** e **JavaScript puro**, criado para treinar lógica de programação, manipulação de DOM e validação de formulário.
-
-O usuário informa seu nome, idade, peso, altura e sexo — o sistema calcula o IMC e exibe uma mensagem personalizada com a classificação do peso.
-
----
-
-## 📸 Preview
-
-> Exemplo de saída: **Gabriel, 15 anos, sexo masculino, pesa 65kg, mede 1.75m  e está com peso ideal.**
+Projeto para calcular o Índice de Massa Corporal (IMC) com base no nome, peso e altura do usuário.  
+Exibe a classificação do peso conforme o resultado, com interface simples, estilizada e responsiva.
 
 ---
 
-## 🚀 Tecnologias utilizadas
+## 🚀 Tecnologias usadas
 
-- HTML5  
-- CSS3  
-- JavaScript (Vanilla JS)
-
----
-
-## ✅ Funcionalidades
-
-- [x] Validação de campos preenchidos
-- [x] Cálculo automático do IMC
-- [x] Classificação clara (abaixo do peso, ideal, sobrepeso, obesidade)
-- [x] Exibição de mensagem personalizada com nome, idade, peso, altura e status
-- [x] Mensagens de erro amigáveis quando houver preenchimento incorreto
+- 🔤 HTML5  
+- 🎨 CSS3 (design clean e moderno)  
+- 🧩 JavaScript (cálculo e validação simples)  
 
 ---
 
-## 🧠 Aprendizados com o projeto
+## 📐 Estrutura do projeto
 
-- Uso de `getElementById`, `.value`, `.innerText`
-- Operadores matemáticos e lógicos
-- Condições com `if / else if / else`
-- Conversão de texto para número com `Number()`
-- Organização e separação entre HTML, CSS e JS
-- Lógica de controle de fluxo e estrutura básica de um mini sistema
-
----
-
-## 📁 Estrutura de Arquivos
-
-📦 Projeto ├── index.html        → Estrutura da página ├── style.css         → Estilização básica └── index.js          → Lógica e funcionalidades
+/ ├── index.html
+└── src/
+├── style/
+│   └── style.css
+└── javascript/
+└── index.js
 
 ---
 
-## ▶️ Como executar
+## 🎯 Funcionalidades
 
-1. Clone o repositório:
+- 👤 Entrada de nome do usuário  
+- ⚖️ Entrada de peso (kg) e altura (m)  
+- 🧮 Cálculo automático do IMC  
+- 📊 Classificação clara: abaixo do peso, peso ideal, sobrepeso, obesidade grau I e II+  
+- 📢 Mensagem personalizada exibida ao usuário  
+- ⚠️ Validação simples para garantir que todos os campos sejam preenchidos  
 
-```bash
-git clone https://github.com/Gabriel-Devweb/classificador-de-peso.git
+---
 
-2. Abra o arquivo index.html no seu navegador
+## 🌐 Hospedagem
 
-3. Preencha os campos solicitados
+> Projeto hospedado no [Vercel](https://cadastroweb.vercel.app/).
 
-4. Clique no botão "Enviar"
 
-5. O resultado será exibido logo abaixo
+---
+
+Feito com 💻 por Gabriel • [@Gabriel-Devweb](https://github.com/Gabriel-Devweb)
+
+
+---
