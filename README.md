@@ -1,4 +1,4 @@
-# 🧮 Classificador de IMC
+# 🧮 Calculador de IMC
 
 Projeto para calcular o Índice de Massa Corporal (IMC) com base no nome, peso e altura do usuário.  
 Exibe a classificação do peso conforme o resultado, com interface simples, estilizada e responsiva.
@@ -37,7 +37,7 @@ Exibe a classificação do peso conforme o resultado, com interface simples, est
 
 ## 🌐 Hospedagem
 
-> Projeto hospedado no [Vercel](https://cadastroweb.vercel.app/).
+> Projeto hospedado no [Vercel](https://calculadordeimc.vercel.app/).
 
 
 ---
