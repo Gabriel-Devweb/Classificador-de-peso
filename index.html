@@ -4,30 +4,25 @@
     <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Classificador de Peso</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="src/style/style.css">
   </head>
   <body >
-    <h1>Classificador de Peso</h1>
-   <p>Seja bem vindo ao meu site para calcular seu Peso!</p> 
-    <p>Para começar digite seu nome abaixo</p>
-    <input type="text" name="txt01" id="txt01"> 
-    <p>Qual seu sexo?</p>
-    Masculino<input type="checkbox" name="check01" id="check01">
-    Feminino<input type="checkbox" name="check02" id="check02">
-  <p>Quantos anos você tem?</p>
-  <input type="text" name="txt02" id="txt02"> 
-  <p>Quantos kg você pesa?</p>
-    <input type="text" name="txt03" id="txt03"> 
-  <p>Qual sua altura em metros?</p>
-   <input type="text" name="txt04" id="txt04"> <br>
-   <input type="button" value="Enviar"onclick="Enviar()">
+    <main>
+   <header> <h1>Classificador de IMC</h1></header>
+    <form class="bmi-form" id="form">
+    <label for="name" class="form-label">Seu nome</label>
+    <input type="text" name="name" id="name" placeholder="Fulano" class="input-name">
+     <label for="weight" class="form-label">Seu Peso (kg)</label>
+    <input type="text" name="weight" id="weight" placeholder="70" class="input-weight"> 
+     <label for="height" class="form-label">Altura (m)</label>
+   <input type="text" name="height" id="height" placeholder="1.70"  class="input-height"> 
+   <input type="button" value="Verificar" class="btn-default" id="btn" onclick="verificar()">
    <div id="msg">
 
 
    </div>
-   <div id="msg2">
-
-   </div>
-   <script src="index.js"></script>
+   </form>
+    </main>
+   <script src="src/javascript/index.js"></script>
  </body>
  </html>

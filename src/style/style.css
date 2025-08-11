@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #2F4858;  /* fundo azul escuro */
+    min-height: 100vh;
+    display: block;
+    text-align: center;
+    padding: 40px 0;
+}
+
+h1 {
+    color: #33658A; /* azul médio */
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+h1::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    background-color: #33658A; /* barra azul médio */
+    border-radius: 30px;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+}
+
+main {
+    background-color: white;
+    width: 350px;
+    margin: 0 auto;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.form-label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #404044;
+    font-size: 14px;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.input-name,
+.input-weight,
+.input-height {
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #33658A; /* azul médio nas bordas */
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+    margin-bottom: 24px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-name:focus,
+.input-weight:focus,
+.input-height:focus {
+    border-color: #86BBD8; /* azul claro no foco */
+    box-shadow: 0 0 6px #86BBD8;
+}
+
+.btn-default {
+    background-color: #F6AE2D; /* amarelo vibrante no botão */
+    color: #2F4858; /* texto azul escuro */
+    border: none;
+    border-radius: 8px;
+    padding: 12px 0;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.btn-default:hover {
+    background-color: #F26419; /* laranja forte no hover */
+    color: white;
+}
+
+#msg {
+    text-align: center;
+    color: #272727;
+    font-weight: 600;
+    margin-top: 10px;
+}
